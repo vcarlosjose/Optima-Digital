@@ -61,17 +61,17 @@
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"><span
                             class="navbar-toggler-icon"></span></button>
-                    <a class="login-icon d-sm-none" href="#"><i class="fa fa-user"></i></a>
-                    <a class="cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <!--<a class="login-icon d-sm-none" href="#"><i class="fa fa-user"></i></a> -->
+                    <!--<a class="cart" href="#"><i class="fa fa-shopping-cart"></i></a> -->
                 </div>
-                <a class="search-icon d-none d-md-block" href="#"><i class="fa fa-search"></i></a>
+                <a class="search-icon d-none d-md-block" ><i class="fa fa-search"></i></a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Quienes Somos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Portfolios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#quienes">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#portafolio">Portfolios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="indexhtml#contacto">Contacto</a></li>
                     </ul>
                     <form class="bg-white search-form" method="get" id="searchform">
                         <div class="input-group">
@@ -101,8 +101,8 @@
                                     <p data-aos="fade-right" data-aos-delay="600">Es acerca de sociología y psicología 
                                         más que <br> sobre tecnología.
                                     </p>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Servicios</a>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Contactanos</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#servicios" class="btn btn-primary">Servicios</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#contacto" class="btn btn-primary">Contactanos</a>
                                 </div>
                             </div>
                             <div class="swiper-slide slide-content d-flex align-items-center">
@@ -113,8 +113,8 @@
                                         nosotros hacemos. <br> Es una mezcla de artesanía, ciencia, narrativa, 
                                         propaganda y filosofía.
                                     </p>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Portfolio</a>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Contactanos</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#portafolio" class="btn btn-primary">Portfolio</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#contacto" class="btn btn-primary">Contactanos</a>
                                 </div>
                             </div>
                             <div class="swiper-slide slide-content d-flex align-items-center">
@@ -124,8 +124,8 @@
                                     <p data-aos="fade-right" data-aos-delay="600">La clave es, que cuentes la historia que cuentes, 
                                         <br> conviertas al consumidor en el héroe.
                                     </p>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Portfolio</a>
-                                    <a data-aos="fade-right" data-aos-delay="900" href="#" class="btn btn-primary">Contactanos</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#portafolio" class="btn btn-primary">Portfolio</a>
+                                    <a data-aos="fade-right" data-aos-delay="900" href="index.html#contacto" class="btn btn-primary">Contactanos</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                     <p>Nuestros diseños son realizados con profesionalidad e innovación.</p>
                 </div>
                 <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0">
-                    <a href="#" class="btn btn-primary">Ver Nuestros Trabajos</a>
+                    <a href="index.html#portafolio" class="btn btn-primary">Ver Nuestros Trabajos</a>
                 </div>
             </div>
         </div>
@@ -228,6 +228,7 @@
     </div>
     <!-- Services End -->
     <!-- Featured Start -->
+    <div id="quienes">
     <section class="featured">
         <div class="container">
             <div class="row">
@@ -251,7 +252,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-primary">Solicite Presupuesto</a>
+                    <a href="index.html#contacto" class="btn btn-primary">Solicite Presupuesto</a>
                 </div>
                 <div class="col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
                     <div class="featured-img">
@@ -262,6 +263,7 @@
             </div>
         </div>
     </section>
+    </div>
     <!-- Featured End -->
     <!-- Recent Posts Start 
     <section class="recent-posts">
@@ -330,6 +332,7 @@
     </section> -->
     <!-- Recent Posts End -->
     <!-- Trust Start -->
+    <div id="portafolio">
     <section class="trust">
         <div class="container">
             <div class="row">
@@ -352,19 +355,34 @@
                 </div>
                 <div class="col-xl-5 gallery">
                     <div class="row no-gutters h-100" id="lightgallery">
-                        <a href="https://www.behance.net/gallery/48661037/PIPES" class="w-50 h-100 gal-img" data-aos="fade-up"
-                            data-aos-delay="200" data-aos-duration="400">
-                            <img class="img-fluid" src="assets/images/gallery1.jpg" alt="Gallery Image">
+                        <a href="assets/images/portafolio/1.jpg" class="w-50 h-50 gal-img" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/1.jpg" alt="Gallery Image">
                             <i class="fa fa-caret-right"></i>
                         </a>
-                        <a href="https://lorempixel.com/600/400/" class="w-50 h-50 gal-img" data-aos="fade-up"
-                            data-aos-delay="400" data-aos-duration="600">
-                            <img class="img-fluid" src="assets/images/gallery2.jpg" alt="Gallery Image">
+                        <a href="assets/images/portafolio/2.jpg" class="w-50 h-50 gal-img" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/2.jpg" alt="Gallery Image">
                             <i class="fa fa-caret-right"></i>
                         </a>
-                        <a href="https://lorempixel.com/600/400/" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
-                            data-aos-delay="0" data-aos-duration="600">
-                            <img class="img-fluid" src="assets/images/gallery3.jpg" alt="Gallery Image">
+                        <a href="assets/images/portafolio/3.jpg" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/3.jpg" alt="Gallery Image">
+                            <i class="fa fa-caret-right"></i>
+                        </a>
+                        <a href="assets/images/portafolio/4.jpg" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/4.jpg" alt="Gallery Image">
+                            <i class="fa fa-caret-right"></i>
+                        </a>
+                        <a href="assets/images/portafolio/5.jpg" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/5.jpg" alt="Gallery Image">
+                            <i class="fa fa-caret-right"></i>
+                        </a>
+                        <a href="assets/images/portafolio/6.jpg" class="w-50 h-50 gal-img gal-img3" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="400">
+                            <img class="img-fluid" src="assets/images/portafolio/6.jpg" alt="Gallery Image">
                             <i class="fa fa-caret-right"></i>
                         </a>
                     </div>
@@ -372,24 +390,25 @@
             </div>
         </div>
     </section>
+    </div>
     <!-- Trust End -->
     <!-- Pricing Start -->
     <section class="pricing-table">
         <div class="container">
             <div class="title text-center">
-                <h6 class="title-primary">Our prices</h6>
-                <h1 class="title-blue">Price Table List</h1>
+                <h6 class="title-primary">aprovecha</h6>
+                <h1 class="title-blue">Nuestras Promociones</h1>
             </div>
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <div class="single-pricing text-center" data-aos="fade-up" data-aos-delay="0"
                         data-aos-duration="600">
-                        <span>Monthly</span>
-                        <h2>Starter</h2>
-                        <p class="desc">Here goes some description</p>
-                        <p class="price">$39.00</p>
-                        <p>Create excepteur sint occaecat cupidatat non proident</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <span>Diseño</span>
+                        <h2>Logotipos</h2>
+                        <p class="desc">Obtendrá mayor variedad de estilos y alternativas de concepto y resolución gráfica para la imagen de su firma.</p>
+                        <p class="price">PROMO BRONCE</p>
+                        <p>Estaremos listo para un presupuesto personalizado y lo más ajustado a sus necesidades.</p>
+                        <a href="index.html#contacto" class="btn btn-primary">Pedido</a>
                         <svg viewBox="0 0 170 193">
                             <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
                                 d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
@@ -399,15 +418,15 @@
                 <div class="col-md-4">
                     <div class="single-pricing text-center" data-aos="fade-up" data-aos-delay="300"
                         data-aos-duration="600">
-                        <span>Monthly</span>
-                        <h2>Starter</h2>
-                        <p class="desc">Here goes some description v</p>
-                        <p class="price">$39.00</p>
-                        <p>50GB Storage Space</p>
-                        <p>20GB Monthly Bandwidth</p>
-                        <p>My SQL Databases</p>
-                        <p>100 Email Account</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <span>Redes</span>
+                        <h2>Media Social</h2>
+                        <p class="desc">Las redes sociales disponibles hoy en día para atraer y generar nuevos clientes.</p>
+                        <p class="price">PROMO PLATA</p>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                        <p>WhatsApp</p>
+                        <p>Youtube</p>
+                        <a href="index.html#contacto" class="btn btn-primary">Pedido</a>
                         <svg viewBox="0 0 170 193">
                             <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
                                 d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
@@ -417,12 +436,12 @@
                 <div class="col-md-4">
                     <div class="single-pricing text-center" data-aos="fade-up" data-aos-delay="600"
                         data-aos-duration="600">
-                        <span>Monthly</span>
-                        <h2>Starter</h2>
-                        <p class="desc">Here goes some description</p>
-                        <p class="price">$39.00</p>
-                        <p>Create excepteur sint occaecat cupidatat non proident</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <span>Impresos</span>
+                        <h2>Publicidad Impresa</h2>
+                        <p class="desc">Los beneficios de la publicidad para cualquier organización, sin importar su tamaño, ya sea grande o en crecimiento son innegables.</p>
+                        <p class="price">PROMO ORO</p>
+                        <p>La combinación óptima de imágenes, colores y texto de un anuncio impreso puede construir una sólida consciencia de marca. </p>
+                        <a href="index.html#contacto" class="btn btn-primary">Pedido</a>
                         <svg viewBox="0 0 170 193">
                             <path fill-rule="evenodd" fill="rgb(238, 21, 21)"
                                 d="M39.000,31.999 C39.000,31.999 -21.000,86.500 9.000,121.999 C39.000,157.500 91.000,128.500 104.000,160.999 C117.000,193.500 141.000,201.000 150.000,183.000 C159.000,165.000 172.000,99.000 167.000,87.000 C162.000,75.000 170.000,63.000 152.000,45.000 C134.000,27.000 128.000,15.999 116.000,11.000 C104.000,6.000 89.000,-0.001 89.000,-0.001 L39.000,31.999 Z" />
@@ -445,66 +464,21 @@
                                     <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
                                             src="assets/images/test1.png" alt="Testimonial 1"></div>
                                     <h5 data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">John</h5>
+                                        data-aos-offset="0">Reny Angarita</h5>
                                     <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">UI/UX
-                                        Designer</span>
+                                        data-aos-offset="0">Propietario &
+                                        Diseñador Grafico</span>
                                     <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Ash's tactics &
-                                        books have helped me a lot in my understanding on how social
-                                        media
-                                        advertising works.I can say that he is one of the best development professionals
-                                        i have
-                                        dealt with so far. His experience is great & he is such a great & pleasant
-                                        person to
-                                        work with as he understands what you are</p>
+                                        data-aos-offset="0">Para estudiar Diseño Gráfico, hay que tener pasión, 
+                                        ganas y vocación. Si no tenemos estas 3 virtudes, nada saldrá 
+                                        bien ya que se requiere de mucha dedicación y horas sin dormir. 
+                                        Tanto en esta profesión como en cualquier otra, lo más importante 
+                                        que hay que tener es motivación por lo que haces y un elevado 
+                                        nivel de inspiración.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide text-center">
-                            <div class="row">
-                                <div class="offset-lg-1 col-lg-10">
-                                    <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
-                                            src="assets/images/test1.png" alt="Testimonial 1"></div>
-                                    <h5 data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">John</h5>
-                                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">UI/UX
-                                        Designer</span>
-                                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Ash's tactics &
-                                        books have helped me a lot in my understanding on how social
-                                        media
-                                        advertising works.I can say that he is one of the best development professionals
-                                        i have
-                                        dealt with so far. His experience is great & he is such a great & pleasant
-                                        person to
-                                        work with as he understands what you are</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <div class="row">
-                                <div class="offset-lg-1 col-lg-10">
-                                    <div class="test-img" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"><img
-                                            src="assets/images/test1.png" alt="Testimonial 1"></div>
-                                    <h5 data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
-                                        data-aos-offset="0">John</h5>
-                                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
-                                        data-aos-offset="0">UI/UX
-                                        Designer</span>
-                                    <p data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
-                                        data-aos-offset="0">Ash's tactics &
-                                        books have helped me a lot in my understanding on how social
-                                        media
-                                        advertising works.I can say that he is one of the best development professionals
-                                        i have
-                                        dealt with so far. His experience is great & he is such a great & pleasant
-                                        person to
-                                        work with as he understands what you are</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="test-pagination"></div>
                 </div>
@@ -539,11 +513,11 @@
         <div class="container">
             <div class="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
                 <div class="content" data-aos="fade-right" data-aos-delay="200">
-                    <h2>FOR BUILDING THE MODERN WEBSITE</h2>
-                    <p>Packed with all the goodies you can get, Kallyas is our flagship premium template.</p>
+                    <h2>SOMOS CREATIVOS Y PROFESIONALES</h2>
+                    <p>Nuestros diseños son realizados con profesionalidad e innovación.</p>
                 </div>
                 <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0">
-                    <a href="#" class="btn btn-primary">Join Newsletter</a>
+                    <a href="index.html#portafolio" class="btn btn-primary">Nuestros Trabajos</a>
                 </div>
             </div>
         </div>
@@ -551,145 +525,133 @@
     <!-- Call To Action 2 End -->
     <!-- Footer Start -->
     <footer>
+        <div id="contacto">
         <!-- Widgets Start -->
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-xl-3">
+                        
                         <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
                             <h6 class="widget-tiltle">&nbsp;</h6>
-                            <p>By subscribing to our mailing list you will always be update with the latest news from
-                                us.
+                            <p>Al suscribirse a nuestra lista de correo, siempre estará actualizado con las últimas noticias de
+                                nosotros.
                             </p>
                             <div class="media">
                                 <i class="fa fa-map-marker"></i>
                                 <div class="media-body ml-3">
-                                    <h6>Direccion</h6>
-                                    Level 13, 2 Elizabeth St,<br>
-                                    Melbourne, Victoria 3000 Australia
+                                    <h6>Dirección</h6>
+                                    Guanarito, Portuguesa<br>
+                                    Venezuela
                                 </div>
                             </div>
                             <div class="media">
                                 <i class="fa fa-envelope-o"></i>
                                 <div class="media-body ml-3">
-                                    <h6>Have any questions?</h6>
-                                    <a href="mailto:support@steelthemes.com">Support@Steelthemes.com</a>
+                                    <h6>¿Tiene alguna pregunta?</h6>
+                                    <a href="mailto:optimadigitalgto@gmail.com">optimadigitalgto@gmail.com</a>
                                 </div>
                             </div>
                             <div class="media">
                                 <i class="fa fa-phone"></i>
                                 <div class="media-body ml-3">
-                                    <h6>Call us & Hire us</h6>
-                                    <a href="tel:+610791803458"> +61 (0) 7 9180 3458</a>
+                                    <h6>Llámanos y contrátanos</h6>
+                                    <a href="tel:+584124571405"> +58 412 457 14 05</a>
                                 </div>
                             </div>
-                            <div class="media">
+                            <!--<div class="media">
                                 <i class="fa fa-fax"></i>
                                 <div class="media-body ml-3">
                                     <h6>Fax</h6>
                                     <a href="fax:911889047521432">(91) 188904752 1432</a>
                                 </div>
+                            </div>-->
+                        </div>
+                        </div>
+                    
+                        <div class="col-md-6 col-xl-3">
+                            <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
+                                <h6 class="widget-tiltle">PRESUPUESTOS</h6>
+                                <form class="" method="get">
+                                    <div class="input-group">
+                                        <input class="field form-control" name="NOM_PRE" type="text"
+                                            placeholder="Nombre de Contacto">
+                                        </div>
+                                        <br>
+                                    <div class="input-group">
+                                        <input class="field form-control" name="COR_PRE" type="email"
+                                        placeholder="Dirección de correo electrónico">
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <input class="field form-control" name="TEL_PRE" type="tel"
+                                            placeholder="Telefono de Contacto">
+                                    </div><br>
+                                    <span class="input-group-btn">
+                                        <button type="submit" name="submit-pre"><i class="fa fa-check"></i> Enviar </button>
+                                    </span>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <div class="single-widget twitter-widget" data-aos="fade-up" data-aos-delay="200">
-                            <h6 class="widget-tiltle">Fresh Tweets</h6>
-                            <div class="media">
-                                <i class="fa fa-twitter"></i>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">@Themes,</a> Html Version Out Now</h6>
-                                    <span>10 Mins Ago</span>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-twitter"></i>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">@Envato,</a> the best selling item of the day!</h6>
-                                    <span>20 Mins Ago</span>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-twitter"></i>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">@Collis,</a> We Planned to Update the Enavto Author Payment Method
-                                        Soon!</h6>
-                                    <span>10 Mins Ago</span>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <i class="fa fa-twitter"></i>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">@SteelThemes,</a> Html Version Out Now</h6>
-                                    <span>15 Mins Ago</span>
-                                </div>
+                        
+                    
+                        <div class="col-md-6 col-xl-3">
+                            <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
+                                <h6 class="widget-tiltle">PEDIDOS</h6>
+                                <form class="" method="get">
+                                    <div class="input-group">
+                                        <input class="field form-control" name="NOM_PED" type="text"
+                                            placeholder="Nombre de Contacto">
+                                        </div>
+                                        <br>
+                                    <div class="input-group">
+                                        <input class="field form-control" name="COR_PED" type="email"
+                                        placeholder="Dirección de correo electrónico">
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <input class="field form-control" name="TEL_PED" type="tel"
+                                            placeholder="Telefono de Contacto">
+                                    </div><br>
+                                    <div class="input-group">
+                                        <input class="field form-control" name="MES_PED" type="texto"
+                                            placeholder="Mensaje sobre el pepido">
+                                    </div><br>
+                                    <span class="input-group-btn">
+                                        <button type="submit" name="submit-pre"><i class="fa fa-check"></i> Enviar </button>
+                                    </span>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <div class="single-widget recent-post-widget" data-aos="fade-up" data-aos-delay="400">
-                            <h6 class="widget-tiltle">Latest Updates</h6>
-                            <div class="media">
-                                <a class="rcnt-img" href="#"><img src="assets/images/rcnt-post1.png"
-                                        alt="Recent Post"></a>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">An engaging</a></h6>
-                                    <p><i class="fa fa-user"></i>Mano <i class="fa fa-eye"></i> 202 Views</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <a class="rcnt-img" href="#"><img src="assets/images/rcnt-post2.png"
-                                        alt="Recent Post"></a>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">Statistics and analysis. The key to succes.</a></h6>
-                                    <p><i class="fa fa-user"></i>Rosias <i class="fa fa-eye"></i> 20 Views</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <a class="rcnt-img" href="#"><img src="assets/images/rcnt-post3.png"
-                                        alt="Recent Post"></a>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">Envato Meeting turns into a photoshooting.</a></h6>
-                                    <p><i class="fa fa-user"></i>Kien <i class="fa fa-eye"></i> 74 Views</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <a class="rcnt-img" href="#"><img src="assets/images/rcnt-post4.png"
-                                        alt="Recent Post"></a>
-                                <div class="media-body ml-3">
-                                    <h6><a href="#">An engaging embedded the video posts</a></h6>
-                                    <p><i class="fa fa-user"></i>Robert <i class="fa fa-eye"></i> 48 Views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-md-6 col-xl-3">
                         
                         <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
-                            <h6 class="widget-tiltle">Subscribe us</h6>
-                            <p>Sign up for our mailing list to get latest updates and offers</p>
+                            <h6 class="widget-tiltle">Suscríbete con nosotros</h6>
+                            <p>Regístrese en nuestra lista de correo para recibir las últimas actualizaciones y ofertas</p>
                             <form class="" method="get">
                                 <div class="input-group">
                                     <input class="field form-control" name="subscribe" type="email"
-                                        placeholder="Email Address">
+                                        placeholder="Dirección de correo electrónico">
                                     <span class="input-group-btn">
                                         <button type="submit" name="submit-mail"><i class="fa fa-check"></i></button>
                                     </span>
                                 </div>
                             </form>
-                            <p>We respect your privacy</p>
-                            <ul class="nav social-nav">
+                            <p>Respetamos tu privacidad</p>
+                            <!--<ul class="nav social-nav">
                                 <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
+                            </ul>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    
         <!-- Widgets End -->
         <!-- Foot Note Start -->
         <div class="foot-note">
@@ -704,6 +666,7 @@
             </div>
         </div>
         <!-- Foot Note End -->
+    </div>   
     </footer>
     <!-- Footer Endt -->
     <!--jQuery-->
